@@ -6,12 +6,13 @@ function createPerson(name, age) {
   };
 }
 
-function addPersonAsFriend(person, other) {
-  person.friends.push(other);
-  return person;
+function addPersonAsFriend(personA, personB) {
+  personA.friends.push(other);
+  return personB;
 }
 
 module.exports = {
   createPerson,
   addPersonAsFriend,
 };
+git
